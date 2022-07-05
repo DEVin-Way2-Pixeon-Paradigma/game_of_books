@@ -1,0 +1,144 @@
+{
+  "books": [
+    {
+      "id": 123423,
+      "title": "Bootstrap 4",
+      "price": 39.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/Bootstrap4_Amazon_large.jpg?v=1631588623",
+      "description": "Fazer um site elegante nunca foi tão fácil, mesmo para quem não sabe escrever uma linha de CSS e, muito menos, entende como harmonizar cores, balancear elementos e tipografia. O Bootstrap é, resumidamente, um grande arquivo CSS com uma excelente documentação, que possui dezenas e dezenas de componentes prontos. No começo, foi criado pelo Twitter para servir como um guia de estilos em CSS da empresa; hoje, é a biblioteca mais famosa e utilizada no mundo. Neste livro, Natan Souza ensinará como trabalhar com esta fantástica biblioteca em sua última versão 4 ao montar uma página do zero, a partir de um wireframe. Você verá seus principais componentes, como menu responsivo, grids, painéis e botões, além de aprender a customizar seu tema padrão e algumas boas práticas de HTML5, sempre levando em consideração a semântica do código. Versões utilizadas: Bootstrap 4"
+    },
+    {
+      "id": 2345342,
+      "title": "CSS Eficiente",
+      "price": 20.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/cover_01987b09-b64e-45c2-8575-728cce314abf_large.jpg?v=1631658704",
+      "description": "Quando aprendemos a trabalhar com CSS, frequentemente nos pegamos perdidos em detalhes fundamentais que não nos são explicados. Por vezes, alguns desses detalhes passam despercebidos até pelo desenvolvedor front-end mais experiente. Mas como ir além do conhecimento básico do CSS e preparar o caminho para explorar tópicos mais avançados? Neste livro, Tárcio Zemel ensina como organizar seu estilo, entender especificidade, como usar diferentes seletores, trabalhar orientado a objetos com CSS e várias outras técnicas que farão diferença no dia a dia do trabalho com os estilos e abrirão novas possibilidades para você explorar ainda mais o CSS."
+    },
+    {
+      "id": 34323,
+      "title": "HTML5 e CSS3",
+      "price": 50.00,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/HTML5eCSS3_ebook_large.jpg?v=1631720433",
+      "description": "Crie páginas elegantes de forma simples! HTML e CSS, quando bem utilizados, podem ser o sucesso de um projeto e, com os novos recursos, muito do que antes era trabalhoso agora não é mais. Aprenda as melhores técnicas para escrever seu site por meio de exemplos práticos de funcionalidades úteis do cotidiano. Construa menus, aplique efeitos, estilize elementos visuais, melhore a semântica da sua página e muito mais!"
+    },
+    {
+      "id": 11,
+      "title": "Saas",
+      "price": 290.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/Sass_ebook_large.jpg?v=1631650381",
+      "description": "Na última década, surgiram os chamados processadores CSS, tecnologias que buscavam suprir as deficiências que encontrávamos na utilização de CSS comum, como repetição de código, ausência de funções, a difícil manutenção entre outros fatores. Sabemos que a única linguagem de estilos que os navegadores compreendem atualmente é o bom e velho CSS, daí a necessidade de um pré-processador que receba dados de entrada e os devolva compilados em um arquivo .css, facilitando o dia a dia do desenvolvimento front-end e trazendo grandes vantagens na implementação dos estilos. Neste livro, Natan Souza, instrutor especialista em front-end na Caelum e na Alura, apresentará o Sass - Syntactically Awesome Stylesheets - de forma totalmente prática. Colocando as mãos na massa, você vai aprender a dominar o pré-processador CSS mais utilizado na atualidade."
+    } ,
+    {
+      "id": 1234323,
+      "title": "Bootstrap 4",
+      "price": 39.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/Bootstrap4_Amazon_large.jpg?v=1631588623",
+      "description": "Fazer um site elegante nunca foi tão fácil, mesmo para quem não sabe escrever uma linha de CSS e, muito menos, entende como harmonizar cores, balancear elementos e tipografia. O Bootstrap é, resumidamente, um grande arquivo CSS com uma excelente documentação, que possui dezenas e dezenas de componentes prontos. No começo, foi criado pelo Twitter para servir como um guia de estilos em CSS da empresa; hoje, é a biblioteca mais famosa e utilizada no mundo. Neste livro, Natan Souza ensinará como trabalhar com esta fantástica biblioteca em sua última versão 4 ao montar uma página do zero, a partir de um wireframe. Você verá seus principais componentes, como menu responsivo, grids, painéis e botões, além de aprender a customizar seu tema padrão e algumas boas práticas de HTML5, sempre levando em consideração a semântica do código. Versões utilizadas: Bootstrap 4"
+    },
+    {
+      "id": 23452342,
+      "title": "CSS Eficiente",
+      "price": 20.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/cover_01987b09-b64e-45c2-8575-728cce314abf_large.jpg?v=1631658704",
+      "description": "Quando aprendemos a trabalhar com CSS, frequentemente nos pegamos perdidos em detalhes fundamentais que não nos são explicados. Por vezes, alguns desses detalhes passam despercebidos até pelo desenvolvedor front-end mais experiente. Mas como ir além do conhecimento básico do CSS e preparar o caminho para explorar tópicos mais avançados? Neste livro, Tárcio Zemel ensina como organizar seu estilo, entender especificidade, como usar diferentes seletores, trabalhar orientado a objetos com CSS e várias outras técnicas que farão diferença no dia a dia do trabalho com os estilos e abrirão novas possibilidades para você explorar ainda mais o CSS."
+    },
+    {
+      "id": 343423,
+      "title": "HTML5 e CSS3",
+      "price": 50.00,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/HTML5eCSS3_ebook_large.jpg?v=1631720433",
+      "description": "Crie páginas elegantes de forma simples! HTML e CSS, quando bem utilizados, podem ser o sucesso de um projeto e, com os novos recursos, muito do que antes era trabalhoso agora não é mais. Aprenda as melhores técnicas para escrever seu site por meio de exemplos práticos de funcionalidades úteis do cotidiano. Construa menus, aplique efeitos, estilize elementos visuais, melhore a semântica da sua página e muito mais!"
+    },
+    {
+      "id": 121,
+      "title": "Saas",
+      "price": 290.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/Sass_ebook_large.jpg?v=1631650381",
+      "description": "Na última década, surgiram os chamados processadores CSS, tecnologias que buscavam suprir as deficiências que encontrávamos na utilização de CSS comum, como repetição de código, ausência de funções, a difícil manutenção entre outros fatores. Sabemos que a única linguagem de estilos que os navegadores compreendem atualmente é o bom e velho CSS, daí a necessidade de um pré-processador que receba dados de entrada e os devolva compilados em um arquivo .css, facilitando o dia a dia do desenvolvimento front-end e trazendo grandes vantagens na implementação dos estilos. Neste livro, Natan Souza, instrutor especialista em front-end na Caelum e na Alura, apresentará o Sass - Syntactically Awesome Stylesheets - de forma totalmente prática. Colocando as mãos na massa, você vai aprender a dominar o pré-processador CSS mais utilizado na atualidade."
+    },
+    {
+      "id": 1233423,
+      "title": "Bootstrap 4",
+      "price": 39.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/Bootstrap4_Amazon_large.jpg?v=1631588623",
+      "description": "Fazer um site elegante nunca foi tão fácil, mesmo para quem não sabe escrever uma linha de CSS e, muito menos, entende como harmonizar cores, balancear elementos e tipografia. O Bootstrap é, resumidamente, um grande arquivo CSS com uma excelente documentação, que possui dezenas e dezenas de componentes prontos. No começo, foi criado pelo Twitter para servir como um guia de estilos em CSS da empresa; hoje, é a biblioteca mais famosa e utilizada no mundo. Neste livro, Natan Souza ensinará como trabalhar com esta fantástica biblioteca em sua última versão 4 ao montar uma página do zero, a partir de um wireframe. Você verá seus principais componentes, como menu responsivo, grids, painéis e botões, além de aprender a customizar seu tema padrão e algumas boas práticas de HTML5, sempre levando em consideração a semântica do código. Versões utilizadas: Bootstrap 4"
+    },
+    {
+      "id": 23445342,
+      "title": "CSS Eficiente",
+      "price": 20.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/cover_01987b09-b64e-45c2-8575-728cce314abf_large.jpg?v=1631658704",
+      "description": "Quando aprendemos a trabalhar com CSS, frequentemente nos pegamos perdidos em detalhes fundamentais que não nos são explicados. Por vezes, alguns desses detalhes passam despercebidos até pelo desenvolvedor front-end mais experiente. Mas como ir além do conhecimento básico do CSS e preparar o caminho para explorar tópicos mais avançados? Neste livro, Tárcio Zemel ensina como organizar seu estilo, entender especificidade, como usar diferentes seletores, trabalhar orientado a objetos com CSS e várias outras técnicas que farão diferença no dia a dia do trabalho com os estilos e abrirão novas possibilidades para você explorar ainda mais o CSS."
+    },
+    {
+      "id": 347323,
+      "title": "HTML5 e CSS3",
+      "price": 50.00,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/HTML5eCSS3_ebook_large.jpg?v=1631720433",
+      "description": "Crie páginas elegantes de forma simples! HTML e CSS, quando bem utilizados, podem ser o sucesso de um projeto e, com os novos recursos, muito do que antes era trabalhoso agora não é mais. Aprenda as melhores técnicas para escrever seu site por meio de exemplos práticos de funcionalidades úteis do cotidiano. Construa menus, aplique efeitos, estilize elementos visuais, melhore a semântica da sua página e muito mais!"
+    },
+    {
+      "id": 411,
+      "title": "Saas",
+      "price": 290.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/Sass_ebook_large.jpg?v=1631650381",
+      "description": "Na última década, surgiram os chamados processadores CSS, tecnologias que buscavam suprir as deficiências que encontrávamos na utilização de CSS comum, como repetição de código, ausência de funções, a difícil manutenção entre outros fatores. Sabemos que a única linguagem de estilos que os navegadores compreendem atualmente é o bom e velho CSS, daí a necessidade de um pré-processador que receba dados de entrada e os devolva compilados em um arquivo .css, facilitando o dia a dia do desenvolvimento front-end e trazendo grandes vantagens na implementação dos estilos. Neste livro, Natan Souza, instrutor especialista em front-end na Caelum e na Alura, apresentará o Sass - Syntactically Awesome Stylesheets - de forma totalmente prática. Colocando as mãos na massa, você vai aprender a dominar o pré-processador CSS mais utilizado na atualidade."
+    } ,
+    {
+      "id": 1243423,
+      "title": "Bootstrap 4",
+      "price": 39.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/Bootstrap4_Amazon_large.jpg?v=1631588623",
+      "description": "Fazer um site elegante nunca foi tão fácil, mesmo para quem não sabe escrever uma linha de CSS e, muito menos, entende como harmonizar cores, balancear elementos e tipografia. O Bootstrap é, resumidamente, um grande arquivo CSS com uma excelente documentação, que possui dezenas e dezenas de componentes prontos. No começo, foi criado pelo Twitter para servir como um guia de estilos em CSS da empresa; hoje, é a biblioteca mais famosa e utilizada no mundo. Neste livro, Natan Souza ensinará como trabalhar com esta fantástica biblioteca em sua última versão 4 ao montar uma página do zero, a partir de um wireframe. Você verá seus principais componentes, como menu responsivo, grids, painéis e botões, além de aprender a customizar seu tema padrão e algumas boas práticas de HTML5, sempre levando em consideração a semântica do código. Versões utilizadas: Bootstrap 4"
+    },
+    {
+      "id": 23453342,
+      "title": "CSS Eficiente",
+      "price": 20.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/cover_01987b09-b64e-45c2-8575-728cce314abf_large.jpg?v=1631658704",
+      "description": "Quando aprendemos a trabalhar com CSS, frequentemente nos pegamos perdidos em detalhes fundamentais que não nos são explicados. Por vezes, alguns desses detalhes passam despercebidos até pelo desenvolvedor front-end mais experiente. Mas como ir além do conhecimento básico do CSS e preparar o caminho para explorar tópicos mais avançados? Neste livro, Tárcio Zemel ensina como organizar seu estilo, entender especificidade, como usar diferentes seletores, trabalhar orientado a objetos com CSS e várias outras técnicas que farão diferença no dia a dia do trabalho com os estilos e abrirão novas possibilidades para você explorar ainda mais o CSS."
+    },
+    {
+      "id": 345323,
+      "title": "HTML5 e CSS3",
+      "price": 50.00,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/HTML5eCSS3_ebook_large.jpg?v=1631720433",
+      "description": "Crie páginas elegantes de forma simples! HTML e CSS, quando bem utilizados, podem ser o sucesso de um projeto e, com os novos recursos, muito do que antes era trabalhoso agora não é mais. Aprenda as melhores técnicas para escrever seu site por meio de exemplos práticos de funcionalidades úteis do cotidiano. Construa menus, aplique efeitos, estilize elementos visuais, melhore a semântica da sua página e muito mais!"
+    },
+    {
+      "id": 1231,
+      "title": "Saas",
+      "price": 290.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/Sass_ebook_large.jpg?v=1631650381",
+      "description": "Na última década, surgiram os chamados processadores CSS, tecnologias que buscavam suprir as deficiências que encontrávamos na utilização de CSS comum, como repetição de código, ausência de funções, a difícil manutenção entre outros fatores. Sabemos que a única linguagem de estilos que os navegadores compreendem atualmente é o bom e velho CSS, daí a necessidade de um pré-processador que receba dados de entrada e os devolva compilados em um arquivo .css, facilitando o dia a dia do desenvolvimento front-end e trazendo grandes vantagens na implementação dos estilos. Neste livro, Natan Souza, instrutor especialista em front-end na Caelum e na Alura, apresentará o Sass - Syntactically Awesome Stylesheets - de forma totalmente prática. Colocando as mãos na massa, você vai aprender a dominar o pré-processador CSS mais utilizado na atualidade."
+    },
+    {
+      "id": 1234623,
+      "title": "Bootstrap 4",
+      "price": 39.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/Bootstrap4_Amazon_large.jpg?v=1631588623",
+      "description": "Fazer um site elegante nunca foi tão fácil, mesmo para quem não sabe escrever uma linha de CSS e, muito menos, entende como harmonizar cores, balancear elementos e tipografia. O Bootstrap é, resumidamente, um grande arquivo CSS com uma excelente documentação, que possui dezenas e dezenas de componentes prontos. No começo, foi criado pelo Twitter para servir como um guia de estilos em CSS da empresa; hoje, é a biblioteca mais famosa e utilizada no mundo. Neste livro, Natan Souza ensinará como trabalhar com esta fantástica biblioteca em sua última versão 4 ao montar uma página do zero, a partir de um wireframe. Você verá seus principais componentes, como menu responsivo, grids, painéis e botões, além de aprender a customizar seu tema padrão e algumas boas práticas de HTML5, sempre levando em consideração a semântica do código. Versões utilizadas: Bootstrap 4"
+    },
+    {
+      "id": 23457342,
+      "title": "CSS Eficiente",
+      "price": 20.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/cover_01987b09-b64e-45c2-8575-728cce314abf_large.jpg?v=1631658704",
+      "description": "Quando aprendemos a trabalhar com CSS, frequentemente nos pegamos perdidos em detalhes fundamentais que não nos são explicados. Por vezes, alguns desses detalhes passam despercebidos até pelo desenvolvedor front-end mais experiente. Mas como ir além do conhecimento básico do CSS e preparar o caminho para explorar tópicos mais avançados? Neste livro, Tárcio Zemel ensina como organizar seu estilo, entender especificidade, como usar diferentes seletores, trabalhar orientado a objetos com CSS e várias outras técnicas que farão diferença no dia a dia do trabalho com os estilos e abrirão novas possibilidades para você explorar ainda mais o CSS."
+    },
+    {
+      "id": 343923,
+      "title": "HTML5 e CSS3",
+      "price": 50.00,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/HTML5eCSS3_ebook_large.jpg?v=1631720433",
+      "description": "Crie páginas elegantes de forma simples! HTML e CSS, quando bem utilizados, podem ser o sucesso de um projeto e, com os novos recursos, muito do que antes era trabalhoso agora não é mais. Aprenda as melhores técnicas para escrever seu site por meio de exemplos práticos de funcionalidades úteis do cotidiano. Construa menus, aplique efeitos, estilize elementos visuais, melhore a semântica da sua página e muito mais!"
+    },
+    {
+      "id": 118,
+      "title": "Saas",
+      "price": 290.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/Sass_ebook_large.jpg?v=1631650381",
+      "description": "Na última década, surgiram os chamados processadores CSS, tecnologias que buscavam suprir as deficiências que encontrávamos na utilização de CSS comum, como repetição de código, ausência de funções, a difícil manutenção entre outros fatores. Sabemos que a única linguagem de estilos que os navegadores compreendem atualmente é o bom e velho CSS, daí a necessidade de um pré-processador que receba dados de entrada e os devolva compilados em um arquivo .css, facilitando o dia a dia do desenvolvimento front-end e trazendo grandes vantagens na implementação dos estilos. Neste livro, Natan Souza, instrutor especialista em front-end na Caelum e na Alura, apresentará o Sass - Syntactically Awesome Stylesheets - de forma totalmente prática. Colocando as mãos na massa, você vai aprender a dominar o pré-processador CSS mais utilizado na atualidade."
+    } 
+  ]
+}
