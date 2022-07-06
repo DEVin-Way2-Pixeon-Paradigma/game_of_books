@@ -1,10 +1,14 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
+import { useDispatch } from 'react-redux'
 import Book from '../../components/Book'
+import { addBookToCart, removeBook } from '../../store/modules/cart/actions'
 
 const Home = () => {
 
   const [books, setBooks] = useState([])
+
+  const dispatch = useDispatch();
 
   useEffect(() => {
     async function handleGetBooks() {
@@ -17,11 +21,15 @@ const Home = () => {
     handleGetBooks()
   }, [])
 
+  const handleAddToCart = (book) => {
+    dispatch(addBookToCart(book, '55555-5456'))
+  }
+
   return (
     <div className='container'>
       <div className='container-books'>
         {books.map(book => (
-          <Book key={book.id} item={book}/>
+          <Book key={book.id} item={book} addToCart={handleAddToCart}/>
         ))}
       </div>
     </div>

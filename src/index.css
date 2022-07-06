@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(235, 231, 231);
+
+  
 }
 
 code {
@@ -20,4 +23,71 @@ code {
 .container-books {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-item {
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.book-item-cover {
+  
+}
+
+.book-item-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #9721BD;
+}
+
+.book-item-price {
+  font-size: 14px;
+  font-weight: bold;
+  color: #9721BD;
+}
+
+.book-button {
+  background: #9721BD;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  color: #FFF;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.book-button:hover {
+  background: #69088a;
+}
+
+.menu-container {
+  height: 34px;
+  background: #9721BD;
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-container h1 {
+  font-size: 16px;
+  color: #FFF;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.menu-container span {
+  font-size: 14px;
+  color: #FFF;
+  font-weight: bold;
+  cursor: pointer;
 }
