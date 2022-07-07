@@ -8,6 +8,8 @@ import store from './store';
 
 // 1 - Configurar o componente de Provider no App.js
 // 2 - Configurar o create Store
+// 3 - Configurar as actions
+// 4 - Configurar os reducers
 
 function App() {
   return (

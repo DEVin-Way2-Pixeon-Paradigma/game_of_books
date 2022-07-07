@@ -22,7 +22,7 @@ const Home = () => {
   }, [])
 
   const handleAddToCart = (book) => {
-    dispatch(addBookToCart(book, '55555-5456'))
+    dispatch(addBookToCart(book))
   }
 
   return (
