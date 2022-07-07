@@ -1,3 +1,4 @@
+import { priceFormat } from '../../../utils/priceFormat'
 
 const INITIAL_STATE = {
   items: []
@@ -13,19 +14,26 @@ const cart = (state = INITIAL_STATE, action) => {
       const bookExists = state.items.find(item => item.id === book.id)
 
       if(!bookExists) {
+        const amount = 1;
         return {
           ...state,
           items: [
             ...state.items,
-            {...book, amount: 1}
+            {
+              ...book, 
+              amount,
+              subtotal: priceFormat(book.price * amount)
+            }
           ]
         }
       } else {
         const newItems = state.items.map(item => {
           if(item.id === bookExists.id) {
+            const amount = item.amount + 1;
             return {
               ...item,
-              amount: item.amount + 1
+              amount,
+              subtotal: priceFormat(item.price * amount)
             }
           }
           return item;
@@ -50,9 +58,11 @@ const cart = (state = INITIAL_STATE, action) => {
     case 'INCREMENT_AMOUNT_BOOK_TO_CART': {
       const newItems = state.items.map(item => {
         if(item.id === action.payload.id) {
+          const amount = item.amount + 1;
           return {
             ...item,
-            amount: item.amount + 1
+            amount,
+            subtotal: priceFormat(item.price * amount)
           }
         }
         return item;
@@ -67,9 +77,11 @@ const cart = (state = INITIAL_STATE, action) => {
     case 'DECREMENT_AMOUNT_BOOK_TO_CART': {
       const newItems = state.items.map(item => {
         if(item.id === action.payload.id) {
+          const amount = item.amount - 1;
           return {
             ...item,
-            amount: item.amount - 1
+            amount,
+            subtotal: priceFormat(item.price * amount)
           }
         }
         return item;

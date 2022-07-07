@@ -118,3 +118,27 @@ code {
 .margin-button {
   margin: 0px 5px;
 }
+
+.book-container {
+  display: flex;
+  gap: 20px;
+  background-color: #FFF;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.book-container img {
+  width: 250px;
+  object-fit: contain;
+  align-self: flex-start;
+}
+
+.book-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-container p {
+  font-size: 12px;
+}

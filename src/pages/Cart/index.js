@@ -3,15 +3,16 @@ import { useDispatch, useSelector } from 'react-redux'
 import { FaMinusCircle, FaPlusCircle, FaTrashAlt } from 'react-icons/fa'
 import { decrementAmountBookToCart, incrementAmountBookToCart, removeBookToCart } from '../../store/modules/cart/actions';
 import Swal from 'sweetalert2';
+import { priceFormat } from '../../utils/priceFormat';
 
 const Cart = () => {
   
   const cart = useSelector(state => state.cart);
   const dispatch = useDispatch();
 
-  const total = cart.items.reduce((acc, currentValue) => {
+  const total = priceFormat(cart.items.reduce((acc, currentValue) => {
     return acc + (currentValue.price * currentValue.amount)
-  }, 0)
+  }, 0))
 
   const handleDispatchAction = (item) => {
     const amount = item.amount - 1;
@@ -56,7 +57,7 @@ const Cart = () => {
                   onClick={() => dispatch(incrementAmountBookToCart(item.id))}
                 />
               </td>
-              <td>{item.price * item.amount}</td>
+              <td>{item.subtotal}</td>
               <td>
                 <FaTrashAlt size={22} color='#9721BD' onClick={() => {
                   Swal.fire({
@@ -69,7 +70,6 @@ const Cart = () => {
                       dispatch(removeBookToCart(item.id))
                     }
                   })
-                  
                 }}/>
               </td>
             </tr>
